@@ -29,6 +29,7 @@ public class Basicos_Aaron {
         System.out.println(entero);
         System.out.println("Valor doble");
         System.out.println(doble);
+    }
     public static void logicos() {
         boolean x=false;
         int a=3, b=2;
@@ -37,12 +38,17 @@ public class Basicos_Aaron {
             System.out.println(a+" es mayor que "+b+": "+x);
         } else System.out.println(a+" es menor que "+b+": "+x);
     }
+    public static void cadenas() {
+        String x="Hola, soy Aarón";
+        System.out.println(x);
+    }
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        cadenas();
         logicos();
         numericos();
     }
