@@ -29,6 +29,13 @@ public class Basicos_Aaron {
         System.out.println(entero);
         System.out.println("Valor doble");
         System.out.println(doble);
+    public static void logicos() {
+        boolean x=false;
+        int a=3, b=2;
+        if(a>b){
+            x=true;
+            System.out.println(a+" es mayor que "+b+": "+x);
+        } else System.out.println(a+" es menor que "+b+": "+x);
     }
 
     /**
@@ -36,6 +43,7 @@ public class Basicos_Aaron {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        logicos();
         numericos();
     }
     
